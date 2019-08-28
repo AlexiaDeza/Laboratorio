@@ -1,0 +1,35 @@
+1) 
+Herencia de clases:la herencia de clases se utiliza cuando se necesita hacer una clase que copie los metodos y atributos de otra para despues agregarle metodos o atributos propios, es una forma de reutilizacion de codigo para no tener que programar lo mismo dos veces.A la clase heredada se la llama superclase y a la clase que hereda subclase.
+
+Alta cohesion : se hacen metodos reducidos osea metodos mas simples que puedas usar dentro de otros metodos
+
+bajo acoplamiento:si se cambia algun valor de una clase de debera cambiar en otra tambien
+
+Redefinicion de funciones:se da en la herencia. Las subclases vuelven a definir funciones de una clase super, es decir que usan el mismo nombre pero que le modifican lo que contiene la misma de acuerdo con lo que necesita la nueva clase.
+
+2)
+super():se utiliza para usar objetos de la clase padre
+this(): se utiliza para llamar a un constructor desde otro
+extends: se usa para heredar una clase por ej: public class triangulo extends dimensiones
+super:se utiliza para llamar a atributos o metodos del padre
+assertTrue():se usa para comprobar que esos valores den como resultado true luego de ejecutar lo que querias probar
+assertFalse():se usa para comprobar que esos valores den como resultado false luego de ejecutar lo que querias probar
+assertEquals():se usa para comprobar que esos valores den como resultado que son iguales luego de ejecutar lo que querias probar
+enum: se utiliza para crear tipos enumerados por ej:enum botellas{
+import: se usa para importar alguna libreria
+package: es un contenedor de clases
+
+3)
+package a.b.c.*;
+
+4)
+a-
+relacion de composicion:una relacion de composicion es cuando se neceita a los dos para formar un todo. ej: una ventana no es ventana sin el marco y el vidrio, si falta alguno de los dos ya no es una ventana otro ejemplo seria que una madre no es madre sin un hijo, entonces si falta el hijo ya no seria madre. Esto se representa con un robo negro.
+
+relacion de agregacion: una relacion de agregacion es cuando no el todo puede seguir siendo sin depender de otro. ej:una agenda tiene contactos, si eliminamos algun contacto igual seguiri siendo una agenda, otro ejemplo seria que una ciudad tiene aeropuertos y aunque se elimine algun aeropuerto seguiria siendo una ciudad. Esto se representa con un rombo vacio.
+
+b-
+Navegabilidad: se dice que es navegable cuando se puede "navegar" desde una punta al otro extremo y lo mismo al reves, si solo se puede desde un extremo no es navegable, en ese caso se la llama de un solo sentido.
+
+cardinalidad: la cardinalidad se usa para decir que cantidad de objetos de una clase estan relacionados con que cantidad de objetos de otra clase.ej: una computadora puede ser usada por muchos usuarios pero un usuario solo puede usar una computadora. cada uno debe poder examinar independientemente y determinar la cardinalidad del otro
+
